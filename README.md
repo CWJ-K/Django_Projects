@@ -42,3 +42,8 @@ python manage.py runserver
   * e.g. `Post.objects.all()`
 
 * QuerySet are lazy. You can concatenate as many filters and will not hit database unitl the QuerySet is evaluated(`save()`), which translates into an SQL query to the database
+
+
+# URLs
+## SEO-friendly URLs
+* `unique_for_date`: not enforced at the database level => migrate is not required, but use migrate to store the process
