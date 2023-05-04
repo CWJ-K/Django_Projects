@@ -47,3 +47,15 @@ python manage.py runserver
 # URLs
 ## SEO-friendly URLs
 * `unique_for_date`: not enforced at the database level => migrate is not required, but use migrate to store the process
+
+# Form vs ModelForm
+## Form
+* not interact with database
+* create forms by yourself
+## ModelForm
+* interact with database
+* use model to create forms
+
+# Hint
+## {% with %}{% endwith }
+* create a value in html
